@@ -1,0 +1,292 @@
+/* CSS Document */
+
+
+body, html {margin: 0; padding: 0; border: 0;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	background-image: url(https://web.archive.org/web/20210516034022im_/http://www.theturtlesource.com/skin-2/img/background-texture.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #ccc;}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	background-image: url(https://web.archive.org/web/20210516034022im_/http://www.theturtlesource.com/skin-2/img/background-content.jpg);
+	/*background-image: url(https://web.archive.org/web/20210516034022im_/http://www.theturtlesource.com/skin-2/img/background-content-xmas.jpg);*/
+	/*background-image: url(https://web.archive.org/web/20210516034022im_/http://www.theturtlesource.com/skin-2/img/background-content-vday.jpg);*/
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: rgb(244,161,44);}
+	
+#header-top {
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	border: 0;}
+	
+a.basic, a:visited.basic {
+	font-size: 10px;
+	color: rgb(4,89,33);
+	text-decoration: none;}
+	
+a:hover.basic {
+	text-decoration: underline;
+	color: #333;}
+
+a.header-top {
+	display: block;
+	font-weight: bold;
+	height: 35px;
+	float: right;
+	line-height: 35px;
+	font-size: 10px;
+	color: rgb(244,161,44);
+	color: #fff;
+	text-decoration: none;
+	padding: 0 5px;
+	border-left: 1px solid rgb(244,161,44);
+	border-color:#fff;}
+	
+a:hover.header-top {
+	background-color: #003300;}
+	
+#header-middle {
+	height: 100px;
+	margin: 0 10px;
+	padding: 0;
+	border: 0;}
+	
+#header-bottom {
+	height: 36px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: relative;}
+	
+a.header-bottom {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 0;
+	padding: 0 5px;
+	float: left;
+	border-right: 1px solid rgb(4,89,33);}
+	
+a:hover.header-bottom {
+	background-color: rgb(206,125,10);
+	color: #fff;}
+	
+#content-wrapper {
+	margin: 10px;
+	padding: 0;
+	border: 0;}
+	
+#footer {
+	margin: 0;
+	padding: 20px;
+	border-top: 1px solid rgb(4,89,33);
+	background-color: #ccc;
+	font-size: 10px;
+	color: #333;}
+	
+a.footer, a:visited.footer {
+	color: #333;
+	text-decoration: none;}
+	
+a:hover.footer {
+	color: #000;
+	text-decoration: underline;}
+	
+p {
+	margin: 0 0 5px 0;
+	padding: 0;}
+
+img {
+	border: 0;}
+	
+.navBox {
+	background-color: rgb(4,89,33);
+	border-bottom: 3px solid #006600;
+	border-top: 3px solid #006600;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	width: 900px;
+	background-image: url(https://web.archive.org/web/20210516034022im_/http://www.theturtlesource.com/skin-2/img/nav-backer.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;}
+	
+a.navBoxClose {
+	position: absolute;
+	right: 20px;
+	background-color: #000;
+	bottom: 0;
+	z-index: 2;
+	/*display: inline;*/
+	margin: 0;
+	padding: 5px;
+	border: 2px solid #000;
+	border-bottom: 0;
+	/*float: right;*/
+	color: #00cc00;
+	text-decoration: none;
+	font-size: 10px;}
+	
+a:hover.navBoxClose {
+	background-color: #990000;}
+	
+h1 {
+	margin: 0 0 10px 0;
+	font-size: 165%;
+	color: #006600;
+	font-weight: bold;}
+	
+h2 {
+	margin: 15px 0 5px 0;
+	font-size: 140%;
+	color: #006600;
+	font-weight: bold;}
+	
+h2.special {
+	margin: 0 0 10px 0;
+	padding: 5px;
+	font-size: 100%;
+	background-color: #006600;
+	color: #fff;
+	font-weight: normal;}
+	
+.toggleBox {
+	background-color: #045921;
+	margin: 0;
+	padding: 5px;
+	border: 1px solid rgb(244,161,44);
+	border-top: none;
+	position: absolute;
+	left: 0;
+	top: 35px;
+	z-index: 4;
+	color: #fff;}
+	
+a.toggle, a:visited.toggle {
+	color: rgb(244,161,44);
+	text-decoration: none;}
+	
+a:hover.toggle {
+	color: #FFFFFF;
+	text-decoration: underline;}
+	
+a.product, a:visited.product {
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;}
+	
+a:hover.product {
+	color: #009900;}
+	
+.pBox {
+	margin: 10px;
+	padding: 0;
+	border: 0;}
+	
+h1.n {
+	color: #003300;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;}
+	
+h1.n a, h1.n a:visited {
+	color: #006600;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;}
+	
+h1.n a:hover {
+	color: #006600;}
+	
+h2.n {
+	color: #000099;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0;
+	padding: 0 0 2px 0;
+	border-bottom: 1px solid #000099;}
+	
+h2.n a, h2.n a:visited {
+	color: #3399ff;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;}
+	
+h2.n a:hover {
+	color: #000099;}
+	
+td.p {
+	width: 25%;
+	vertical-align: top;}
+	
+h1.f {
+	margin: 0;
+	padding: 2px 5px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #006600;
+	border: 0;}
+	
+.extra {
+	margin: 5px;
+	padding: 0;
+	border: 0;}
+	
+a.basic, a:visited.basic {
+	font-size: 12px;
+	color: 006600;
+	text-decoration: none;}
+	
+a:hover.basic {
+	color: #666;
+	text-decoration: underline;}
+	
+a.gray, a:visited.gray {
+	font-size: 12px;
+	color: #ccc;
+	text-decoration: none;}
+	
+a:hover.gray {
+	color: #fff;
+	text-decoration: underline;}
+
+/*
+     FILE ARCHIVED ON 03:40:22 May 16, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:51:26 Jul 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 212.58
+  exclusion.robots: 0.276
+  exclusion.robots.policy: 0.264
+  RedisCDXSource: 7.033
+  esindex: 0.012
+  LoadShardBlock: 182.612 (3)
+  PetaboxLoader3.datanode: 228.753 (5)
+  CDXLines.iter: 18.315 (3)
+  load_resource: 198.215 (2)
+  PetaboxLoader3.resolve: 88.977 (2)
+*/
